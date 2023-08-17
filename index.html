@@ -8,19 +8,32 @@
 </head>
 <body id=bad>
     <div id="container">
+        <h3 id="title1">Originaltext</h3>
         <div id="original">
             <input id="inputOriginalText" type="text">
         </div>
+        <div id="cipheer">
+            <button onclick="cipherText()" >cifher</button>
+        </div>
+        <div id="res">
+            <input id="result" disabled type="text">
+        </div>
         
-        <button onclick="cipherText()" >cifher</button>
-        <input id="result" disabled type="text">
+        <h3 id="title2">decryptedtext</h3>
+        <div id="descrypted">
+            <input id="inputdecryptedtext" type="text">
+        </div>
+        <div id="buttond">
+            <button onclick="decoderText()" >decoder</button>
+        </div>
+        <div id="resde">
+            <input id="resultdecrypted" disabled type="text">
+        </div>
+        <div id="pass">
+            <label for="inputpassword">password:</label>
+            <input type="number" id="inputpassword">
+        </div>
 
-        <input id="inputdecryptedtext" type="text">
-        <button onclick="decoderText()" >decoder</button>
-        <input id="resultdecrypted" disabled type="text">
-
-        <label for="inputpassword">password:</label>
-        <input type="number" id="inputpassword">
     </div>
 
     <script src="/jss/asction.js"></script>

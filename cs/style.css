@@ -4,8 +4,55 @@
 
 #container{
     border: 2px black solid;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 90px;
+    height: 460px;
+    background: linear-gradient(#1447b6,indigo); 
+}
+
+
+#title1{
+    margin-left: 160px;
+    margin-top: 30px;
+}
+
+#title2{
+    margin-left: 158px;
+    margin-top: 30px;
 }
 
 #original{
-    margin: 150px;
+    margin-left: 130px;
+    margin-top: 10px;
+}
+
+#cipheer{
+    margin-left: 190px;
+    margin-top: 10px;
+}
+
+#res{
+    margin-left: 130px;
+    margin-top: 10px;
+}
+
+#descrypted{
+    margin-left: 130px;
+    margin-top: 10px;
+}
+
+#buttond{
+    margin-left: 185px;
+    margin-top: 10px;
+}
+
+#resde{
+    margin-left: 130px;
+    margin-top: 10px;
+}
+
+#pass{
+    margin-left: 63px;
+    margin-top: 50px;
 }
